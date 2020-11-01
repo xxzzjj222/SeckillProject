@@ -25,7 +25,7 @@ namespace Projects.Cores.Register.Extensions
         /// <param name="services"></param>
         /// <param name="options"></param>
         /// <returns></returns>
-        public static IServiceCollection AddServiceDiscovery(this IServiceCollection services,Action<ServiceRegistryOptions> options)
+        public static IServiceCollection AddServiceDiscovery(this IServiceCollection services,Action<ServiceDiscoveryOptions> options)
         {
             //1.注册配置选项
             services.Configure(options);
