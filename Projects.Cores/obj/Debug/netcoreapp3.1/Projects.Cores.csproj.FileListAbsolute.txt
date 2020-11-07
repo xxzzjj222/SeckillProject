@@ -3,3 +3,7 @@ F:\VS2019\Projects\Projects.Cores\bin\Debug\netcoreapp3.1\Projects.Cores.dll
 F:\VS2019\Projects\Projects.Cores\obj\Debug\netcoreapp3.1\Projects.Cores.AssemblyInfoInputs.cache
 F:\VS2019\Projects\Projects.Cores\obj\Debug\netcoreapp3.1\Projects.Cores.AssemblyInfo.cs
 F:\VS2019\Projects\Projects.Cores\obj\Debug\netcoreapp3.1\Projects.Cores.csprojAssemblyReference.cache
+F:\VS2019\Projects\Projects.Cores\obj\Debug\netcoreapp3.1\Projects.Cores.csproj.CoreCompileInputs.cache
+F:\VS2019\Projects\Projects.Cores\bin\Debug\netcoreapp3.1\Projects.Cores.pdb
+F:\VS2019\Projects\Projects.Cores\obj\Debug\netcoreapp3.1\Projects.Cores.dll
+F:\VS2019\Projects\Projects.Cores\obj\Debug\netcoreapp3.1\Projects.Cores.pdb
