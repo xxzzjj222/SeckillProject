@@ -21,7 +21,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Projects.SeckillServices", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Frameworks", "Frameworks", "{F8FEFB97-6019-4181-944E-EA7B232B1360}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Projects.Cores", "Projects.Cores\Projects.Cores.csproj", "{77B48560-67B9-4A32-8D41-96CB1FE4605F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Projects.Cores", "Projects.Cores\Projects.Cores.csproj", "{77B48560-67B9-4A32-8D41-96CB1FE4605F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Projects.Common", "Projects.Common\Projects.Common.csproj", "{0F89359E-E5D0-42DB-8F70-30B3EE184D20}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +59,10 @@ Global
 		{77B48560-67B9-4A32-8D41-96CB1FE4605F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{77B48560-67B9-4A32-8D41-96CB1FE4605F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{77B48560-67B9-4A32-8D41-96CB1FE4605F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F89359E-E5D0-42DB-8F70-30B3EE184D20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F89359E-E5D0-42DB-8F70-30B3EE184D20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F89359E-E5D0-42DB-8F70-30B3EE184D20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F89359E-E5D0-42DB-8F70-30B3EE184D20}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -69,6 +75,7 @@ Global
 		{08A6DBE4-EEF3-4951-920A-34B147BC26A2} = {A0107CA4-0C91-48D7-8552-21F9229AD808}
 		{4262280C-02FD-4EE7-90B5-2A9B8AE6121D} = {A0107CA4-0C91-48D7-8552-21F9229AD808}
 		{77B48560-67B9-4A32-8D41-96CB1FE4605F} = {F8FEFB97-6019-4181-944E-EA7B232B1360}
+		{0F89359E-E5D0-42DB-8F70-30B3EE184D20} = {A0107CA4-0C91-48D7-8552-21F9229AD808}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4065948F-12A5-44B2-BB3A-9C16C2FD2820}

@@ -34,3 +34,4 @@ F:\VS2019\Projects\Projects.SeckillFronts\obj\Debug\netcoreapp3.1\Projects.Secki
 F:\VS2019\Projects\Projects.SeckillFronts\obj\Debug\netcoreapp3.1\Projects.SeckillFronts.pdb
 F:\VS2019\Projects\Projects.SeckillFronts\obj\Debug\netcoreapp3.1\Projects.SeckillFronts.genruntimeconfig.cache
 F:\VS2019\Projects\Projects.SeckillFronts\obj\Debug\netcoreapp3.1\Projects.SeckillFronts.csproj.CopyComplete
+F:\VS2019\Projects\Projects.SeckillFronts\obj\Debug\netcoreapp3.1\Projects.SeckillFronts.csprojAssemblyReference.cache

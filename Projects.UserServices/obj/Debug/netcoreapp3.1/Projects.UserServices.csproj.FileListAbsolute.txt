@@ -17,3 +17,4 @@ F:\VS2019\Projects\Projects.UserServices\obj\Debug\netcoreapp3.1\staticwebassets
 F:\VS2019\Projects\Projects.UserServices\obj\Debug\netcoreapp3.1\Projects.UserServices.dll
 F:\VS2019\Projects\Projects.UserServices\obj\Debug\netcoreapp3.1\Projects.UserServices.pdb
 F:\VS2019\Projects\Projects.UserServices\obj\Debug\netcoreapp3.1\Projects.UserServices.genruntimeconfig.cache
+F:\VS2019\Projects\Projects.UserServices\obj\Debug\netcoreapp3.1\Projects.UserServices.csprojAssemblyReference.cache

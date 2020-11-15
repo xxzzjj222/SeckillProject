@@ -17,3 +17,4 @@ F:\VS2019\Projects\Projects.SeckillServices\obj\Debug\netcoreapp3.1\staticwebass
 F:\VS2019\Projects\Projects.SeckillServices\obj\Debug\netcoreapp3.1\Projects.SeckillServices.dll
 F:\VS2019\Projects\Projects.SeckillServices\obj\Debug\netcoreapp3.1\Projects.SeckillServices.pdb
 F:\VS2019\Projects\Projects.SeckillServices\obj\Debug\netcoreapp3.1\Projects.SeckillServices.genruntimeconfig.cache
+F:\VS2019\Projects\Projects.SeckillServices\obj\Debug\netcoreapp3.1\Projects.SeckillServices.csprojAssemblyReference.cache
