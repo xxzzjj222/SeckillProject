@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "AbxNygn5ADvsEkldboHS7+C0pdR4y8dkg5kRIqsKPt+oero+/eozy34M/IZK2VCLv10JoqBhqlpJtWoMue0ZpQ==",
+  "dgSpecHash": "im/EaIr+MNSb4ccZuFoe4MU1IGBUtcFV40SqYvTZCaWChwCdi8k7Fegq48SxD2s6fSbDp7yM5wspHZ8G0HGPtw==",
   "success": true,
   "projectFilePath": "F:\\VS2019\\Projects\\Projects.SeckillFronts\\Projects.SeckillFronts.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\xzj\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\xzj\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512"
+  ],
   "logs": []
 }

@@ -1,6 +1,5 @@
 F:\VS2019\Projects\Projects.SeckillFronts\bin\Debug\netcoreapp3.1\appsettings.Development.json
 F:\VS2019\Projects\Projects.SeckillFronts\bin\Debug\netcoreapp3.1\appsettings.json
-F:\VS2019\Projects\Projects.SeckillFronts\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
 F:\VS2019\Projects\Projects.SeckillFronts\bin\Debug\netcoreapp3.1\Projects.SeckillFronts.exe
 F:\VS2019\Projects\Projects.SeckillFronts\bin\Debug\netcoreapp3.1\Projects.SeckillFronts.deps.json
 F:\VS2019\Projects\Projects.SeckillFronts\bin\Debug\netcoreapp3.1\Projects.SeckillFronts.runtimeconfig.json
@@ -9,12 +8,16 @@ F:\VS2019\Projects\Projects.SeckillFronts\bin\Debug\netcoreapp3.1\Projects.Secki
 F:\VS2019\Projects\Projects.SeckillFronts\bin\Debug\netcoreapp3.1\Projects.SeckillFronts.pdb
 F:\VS2019\Projects\Projects.SeckillFronts\bin\Debug\netcoreapp3.1\Projects.SeckillFronts.Views.dll
 F:\VS2019\Projects\Projects.SeckillFronts\bin\Debug\netcoreapp3.1\Projects.SeckillFronts.Views.pdb
+F:\VS2019\Projects\Projects.SeckillFronts\obj\Debug\netcoreapp3.1\Projects.SeckillFronts.csprojAssemblyReference.cache
 F:\VS2019\Projects\Projects.SeckillFronts\obj\Debug\netcoreapp3.1\Projects.SeckillFronts.AssemblyInfoInputs.cache
 F:\VS2019\Projects\Projects.SeckillFronts\obj\Debug\netcoreapp3.1\Projects.SeckillFronts.AssemblyInfo.cs
 F:\VS2019\Projects\Projects.SeckillFronts\obj\Debug\netcoreapp3.1\Projects.SeckillFronts.csproj.CoreCompileInputs.cache
 F:\VS2019\Projects\Projects.SeckillFronts\obj\Debug\netcoreapp3.1\Projects.SeckillFronts.MvcApplicationPartsAssemblyInfo.cache
 F:\VS2019\Projects\Projects.SeckillFronts\obj\Debug\netcoreapp3.1\Projects.SeckillFronts.RazorAssemblyInfo.cache
 F:\VS2019\Projects\Projects.SeckillFronts\obj\Debug\netcoreapp3.1\Projects.SeckillFronts.RazorAssemblyInfo.cs
+F:\VS2019\Projects\Projects.SeckillFronts\obj\Debug\netcoreapp3.1\staticwebassets\Projects.SeckillFronts.StaticWebAssets.Manifest.cache
+F:\VS2019\Projects\Projects.SeckillFronts\obj\Debug\netcoreapp3.1\staticwebassets\Projects.SeckillFronts.StaticWebAssets.xml
+F:\VS2019\Projects\Projects.SeckillFronts\obj\Debug\netcoreapp3.1\scopedcss\bundle\Projects.SeckillFronts.styles.css
 F:\VS2019\Projects\Projects.SeckillFronts\obj\Debug\netcoreapp3.1\Projects.SeckillFronts.TagHelpers.input.cache
 F:\VS2019\Projects\Projects.SeckillFronts\obj\Debug\netcoreapp3.1\Projects.SeckillFronts.TagHelpers.output.cache
 F:\VS2019\Projects\Projects.SeckillFronts\obj\Debug\netcoreapp3.1\Projects.SeckillFronts.RazorCoreGenerate.cache
@@ -28,10 +31,7 @@ F:\VS2019\Projects\Projects.SeckillFronts\obj\Debug\netcoreapp3.1\Razor\Views\_V
 F:\VS2019\Projects\Projects.SeckillFronts\obj\Debug\netcoreapp3.1\Projects.SeckillFronts.RazorTargetAssemblyInfo.cache
 F:\VS2019\Projects\Projects.SeckillFronts\obj\Debug\netcoreapp3.1\Projects.SeckillFronts.RazorTargetAssemblyInfo.cs
 F:\VS2019\Projects\Projects.SeckillFronts\obj\Debug\netcoreapp3.1\Projects.SeckillFronts.Views.pdb
-F:\VS2019\Projects\Projects.SeckillFronts\obj\Debug\netcoreapp3.1\staticwebassets\Projects.SeckillFronts.StaticWebAssets.Manifest.cache
-F:\VS2019\Projects\Projects.SeckillFronts\obj\Debug\netcoreapp3.1\staticwebassets\Projects.SeckillFronts.StaticWebAssets.xml
 F:\VS2019\Projects\Projects.SeckillFronts\obj\Debug\netcoreapp3.1\Projects.SeckillFronts.dll
 F:\VS2019\Projects\Projects.SeckillFronts\obj\Debug\netcoreapp3.1\Projects.SeckillFronts.pdb
 F:\VS2019\Projects\Projects.SeckillFronts\obj\Debug\netcoreapp3.1\Projects.SeckillFronts.genruntimeconfig.cache
 F:\VS2019\Projects\Projects.SeckillFronts\obj\Debug\netcoreapp3.1\Projects.SeckillFronts.csproj.CopyComplete
-F:\VS2019\Projects\Projects.SeckillFronts\obj\Debug\netcoreapp3.1\Projects.SeckillFronts.csprojAssemblyReference.cache
