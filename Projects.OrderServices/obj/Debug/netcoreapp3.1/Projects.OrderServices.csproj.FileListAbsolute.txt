@@ -83,3 +83,4 @@ F:\VS2019\Projects\Projects.OrderServices\bin\Debug\netcoreapp3.1\Projects.Commo
 F:\VS2019\Projects\Projects.OrderServices\bin\Debug\netcoreapp3.1\Projects.Cores.pdb
 F:\VS2019\Projects\Projects.OrderServices\obj\Debug\netcoreapp3.1\Projects.OrderServices.MvcApplicationPartsAssemblyInfo.cs
 F:\VS2019\Projects\Projects.OrderServices\obj\Debug\netcoreapp3.1\Projects.OrderServices.csproj.CopyComplete
+F:\VS2019\Projects\Projects.OrderServices\bin\Debug\netcoreapp3.1\DotNetCore.CAP.InMemoryStorage.dll

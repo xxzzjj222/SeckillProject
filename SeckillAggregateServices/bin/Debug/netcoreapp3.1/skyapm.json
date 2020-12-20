@@ -1,0 +1,10 @@
+﻿{
+  "SkyWalking": {
+    "ServiceName": "SeckillAggregateServices",
+    "Transport": {
+      "gRPC": {
+        "Servers": "localhost:11800"
+      }
+    }
+  }
+}

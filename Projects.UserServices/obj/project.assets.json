@@ -114,6 +114,18 @@
           }
         }
       },
+      "DotNetCore.CAP.InMemoryStorage/3.1.2": {
+        "type": "package",
+        "dependencies": {
+          "DotNetCore.CAP": "3.1.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/DotNetCore.CAP.InMemoryStorage.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/DotNetCore.CAP.InMemoryStorage.dll": {}
+        }
+      },
       "DotNetCore.CAP.MySql/3.1.2": {
         "type": "package",
         "dependencies": {
@@ -2753,6 +2765,7 @@
           "Consul": "1.6.1.1",
           "DotNetCore.CAP": "3.1.2",
           "DotNetCore.CAP.Dashboard": "3.1.2",
+          "DotNetCore.CAP.InMemoryStorage": "3.1.2",
           "DotNetCore.CAP.MySql": "3.1.2",
           "DotNetCore.CAP.RabbitMQ": "3.1.2",
           "Microsoft.Extensions.DependencyModel": "3.1.6",
@@ -2899,6 +2912,19 @@
         "lib/netcoreapp3.1/DotNetCore.CAP.Dashboard.dll",
         "lib/netcoreapp3.1/DotNetCore.CAP.Dashboard.pdb",
         "lib/netcoreapp3.1/zh/DotNetCore.CAP.Dashboard.resources.dll"
+      ]
+    },
+    "DotNetCore.CAP.InMemoryStorage/3.1.2": {
+      "sha512": "L3IFUKNNt8f815UrwAzloE2cESP02tqN5BhbeVMQ5w+vw8SdUprL6JQMzAMfkQQRCBQP010GZANlhWOTj6QtNQ==",
+      "type": "package",
+      "path": "dotnetcore.cap.inmemorystorage/3.1.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "dotnetcore.cap.inmemorystorage.3.1.2.nupkg.sha512",
+        "dotnetcore.cap.inmemorystorage.nuspec",
+        "lib/netstandard2.0/DotNetCore.CAP.InMemoryStorage.dll",
+        "lib/netstandard2.0/DotNetCore.CAP.InMemoryStorage.pdb"
       ]
     },
     "DotNetCore.CAP.MySql/3.1.2": {
@@ -8782,6 +8808,14 @@
         "warn": true,
         "downloadDependencies": [
           {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[3.1.10, 3.1.10]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[3.1.10, 3.1.10]"
+          },
+          {
             "name": "Microsoft.NETCore.App.Ref",
             "version": "[3.1.0, 3.1.0]"
           },
@@ -8798,7 +8832,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }

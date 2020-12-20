@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "S3iPEeQvsxAxF1J6rYX7o1+rI0sjpBir3YNs2AuuKqp6f4hnthlwvDs0BSFMB1hLmWtftdhsEVPyRvEACQ7Swg==",
+  "dgSpecHash": "Beb9pm6gx2D1DoRsomh8PfyuOB9liWu1eLEB9WBwVR6LpHtJg9TdqRin4Dc1FSnx4kzHY3vkQkkh6zVpIOt3pg==",
   "success": true,
   "projectFilePath": "F:\\VS2019\\Projects\\Projects.ProductServices\\Projects.ProductServices.csproj",
   "expectedPackageFiles": [
@@ -11,6 +11,7 @@
     "C:\\Users\\xzj\\.nuget\\packages\\csrediscore\\3.6.5\\csrediscore.3.6.5.nupkg.sha512",
     "C:\\Users\\xzj\\.nuget\\packages\\dotnetcore.cap\\3.1.2\\dotnetcore.cap.3.1.2.nupkg.sha512",
     "C:\\Users\\xzj\\.nuget\\packages\\dotnetcore.cap.dashboard\\3.1.2\\dotnetcore.cap.dashboard.3.1.2.nupkg.sha512",
+    "C:\\Users\\xzj\\.nuget\\packages\\dotnetcore.cap.inmemorystorage\\3.1.2\\dotnetcore.cap.inmemorystorage.3.1.2.nupkg.sha512",
     "C:\\Users\\xzj\\.nuget\\packages\\dotnetcore.cap.mysql\\3.1.2\\dotnetcore.cap.mysql.3.1.2.nupkg.sha512",
     "C:\\Users\\xzj\\.nuget\\packages\\dotnetcore.cap.rabbitmq\\3.1.2\\dotnetcore.cap.rabbitmq.3.1.2.nupkg.sha512",
     "C:\\Users\\xzj\\.nuget\\packages\\google.protobuf\\3.11.4\\google.protobuf.3.11.4.nupkg.sha512",
@@ -174,7 +175,9 @@
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
     "C:\\Users\\xzj\\.nuget\\packages\\system.xml.xpath\\4.0.1\\system.xml.xpath.4.0.1.nupkg.sha512",
     "C:\\Users\\xzj\\.nuget\\packages\\system.xml.xpath.xmldocument\\4.0.1\\system.xml.xpath.xmldocument.4.0.1.nupkg.sha512",
+    "C:\\Users\\xzj\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
     "C:\\Users\\xzj\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\xzj\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.10\\microsoft.netcore.app.host.win-x64.3.1.10.nupkg.sha512",
     "C:\\Users\\xzj\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512"
   ],
   "logs": []

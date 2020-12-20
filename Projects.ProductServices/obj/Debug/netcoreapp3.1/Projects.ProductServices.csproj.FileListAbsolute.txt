@@ -83,3 +83,4 @@ F:\VS2019\Projects\Projects.ProductServices\bin\Debug\netcoreapp3.1\System.Threa
 F:\VS2019\Projects\Projects.ProductServices\bin\Debug\netcoreapp3.1\System.Xml.XPath.XmlDocument.dll
 F:\VS2019\Projects\Projects.ProductServices\bin\Debug\netcoreapp3.1\zh\DotNetCore.CAP.Dashboard.resources.dll
 F:\VS2019\Projects\Projects.ProductServices\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+F:\VS2019\Projects\Projects.ProductServices\bin\Debug\netcoreapp3.1\DotNetCore.CAP.InMemoryStorage.dll

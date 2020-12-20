@@ -83,3 +83,4 @@ F:\VS2019\Projects\Projects.SeckillServices\bin\Debug\netcoreapp3.1\Projects.Cor
 F:\VS2019\Projects\Projects.SeckillServices\obj\Debug\netcoreapp3.1\Projects.SeckillServices.MvcApplicationPartsAssemblyInfo.cs
 F:\VS2019\Projects\Projects.SeckillServices\obj\Debug\netcoreapp3.1\Projects.SeckillServices.csproj.CopyComplete
 F:\VS2019\Projects\Projects.SeckillServices\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+F:\VS2019\Projects\Projects.SeckillServices\bin\Debug\netcoreapp3.1\DotNetCore.CAP.InMemoryStorage.dll

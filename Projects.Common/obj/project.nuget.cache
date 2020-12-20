@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "dSWPt13WAg/6MigzxLnEraExCXeLel4mOk52KA7YG6Ab52KkRKqxxe3q7TU/iTUML53JldhmnLh1pOwGVymBzQ==",
+  "dgSpecHash": "8E5X9fdw7bsifLuR/4dqmpN5fUUPccfN3/2tjbPYjVznBMziQ8f1NAbRGzlH/TPiV/LysGJyc2L9Ry+DTTtkXg==",
   "success": true,
   "projectFilePath": "F:\\VS2019\\Projects\\Projects.Common\\Projects.Common.csproj",
   "expectedPackageFiles": [
@@ -142,6 +142,7 @@
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.xml.xmldocument\\4.0.1\\system.xml.xmldocument.4.0.1.nupkg.sha512",
     "C:\\Users\\xzj\\.nuget\\packages\\system.xml.xpath\\4.0.1\\system.xml.xpath.4.0.1.nupkg.sha512",
     "C:\\Users\\xzj\\.nuget\\packages\\system.xml.xpath.xmldocument\\4.0.1\\system.xml.xpath.xmldocument.4.0.1.nupkg.sha512",
+    "C:\\Users\\xzj\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
     "C:\\Users\\xzj\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512",
     "C:\\Users\\xzj\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512"
   ],

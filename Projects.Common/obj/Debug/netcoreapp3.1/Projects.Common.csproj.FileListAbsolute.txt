@@ -6,3 +6,4 @@ F:\VS2019\Projects\Projects.Common\obj\Debug\netcoreapp3.1\Projects.Common.Assem
 F:\VS2019\Projects\Projects.Common\obj\Debug\netcoreapp3.1\Projects.Common.csproj.CoreCompileInputs.cache
 F:\VS2019\Projects\Projects.Common\obj\Debug\netcoreapp3.1\Projects.Common.dll
 F:\VS2019\Projects\Projects.Common\obj\Debug\netcoreapp3.1\Projects.Common.pdb
+F:\VS2019\Projects\Projects.Common\obj\Debug\netcoreapp3.1\Projects.Common.csprojAssemblyReference.cache

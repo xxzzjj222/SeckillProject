@@ -426,6 +426,20 @@
           "lib/netcoreapp3.1/DotNetCore.CAP.Dashboard.dll": {}
         }
       },
+      "DotNetCore.CAP.InMemoryStorage/3.1.2": {
+        "dependencies": {
+          "DotNetCore.CAP": "3.1.2"
+        },
+        "runtime": {
+          "lib/netstandard2.0/DotNetCore.CAP.InMemoryStorage.dll": {
+            "assemblyVersion": "3.1.2.0",
+            "fileVersion": "3.1.2.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/DotNetCore.CAP.InMemoryStorage.dll": {}
+        }
+      },
       "DotNetCore.CAP.MySql/3.1.2": {
         "dependencies": {
           "DotNetCore.CAP": "3.1.2",
@@ -2284,6 +2298,7 @@
           "Consul": "1.6.1.1",
           "DotNetCore.CAP": "3.1.2",
           "DotNetCore.CAP.Dashboard": "3.1.2",
+          "DotNetCore.CAP.InMemoryStorage": "3.1.2",
           "DotNetCore.CAP.MySql": "3.1.2",
           "DotNetCore.CAP.RabbitMQ": "3.1.2",
           "Microsoft.Extensions.DependencyModel": "3.1.6",
@@ -3940,6 +3955,13 @@
       "sha512": "sha512-eonh3kjFOaol1qSyTrPhPSLFNoZXiSEN3kDf/phLVNaE9/RpRndVXnj8LRYm0QvjBFXZlr05PHEBbzw3EWgf8w==",
       "path": "dotnetcore.cap.dashboard/3.1.2",
       "hashPath": "dotnetcore.cap.dashboard.3.1.2.nupkg.sha512"
+    },
+    "DotNetCore.CAP.InMemoryStorage/3.1.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-L3IFUKNNt8f815UrwAzloE2cESP02tqN5BhbeVMQ5w+vw8SdUprL6JQMzAMfkQQRCBQP010GZANlhWOTj6QtNQ==",
+      "path": "dotnetcore.cap.inmemorystorage/3.1.2",
+      "hashPath": "dotnetcore.cap.inmemorystorage.3.1.2.nupkg.sha512"
     },
     "DotNetCore.CAP.MySql/3.1.2": {
       "type": "package",

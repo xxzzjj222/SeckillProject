@@ -1,0 +1,49 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<input type="hidden" id="ProductId" value="@ViewData["ProductId"]" />
+<input type="hidden" id="ProductUrl" value="@ViewData["ProductUrl"]" />
+<input type="hidden" id="ProductTitle" value="@ViewData["ProductTitle"]" />
+<input type="hidden" id="ProductPrice" value="@ViewData["ProductPrice"]" />
+<input type="hidden" id="ProductCount" value="@ViewData["ProductCount"]" />
+<!-- 页面部分 -->
+<div class="xm-product-box">
+    <div class="nav-bar">
+        <div class="container">
+            <h2>我的购物车温馨提示：产品是否购买成功，以最终下单为准哦，请尽快结算</h2>
+            <div class="con">
+                <div class="left"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="order-list">
+    <table>
+        <tr>
+            <th>图片</th>
+            <th>产品名称</th>
+            <th>单价</th>
+            <th>数量</th>
+            <th>小计</th>
+        </tr>
+        <tr>
+            <td><img src="@ViewData["ProductUrl"]" width="120" height="120" alt=""></td>
+            <td>
+                @ViewData["ProductTitle"]
+                请您在 6月16日 17:38 前下单, 结果以支付成功为准
+            </td>
+            <td>@ViewData["ProductPrice"]元</td>
+            <td>@ViewData["ProductCount"]</td>
+            <td>@ViewData["ProductPrice"]元</td>
+        </tr>
+        <tr>
+            <td colspan="5"><a href="javascript:void(0);" class="btn-order">立即下单</a></td>
+        </tr>
+    </table>
+</div>
+
+<script src="~/js/order.js" asp-append-version="true"></script>

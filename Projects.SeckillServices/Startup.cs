@@ -55,7 +55,7 @@ namespace Projects.SeckillServices
                 options.ServiceName = "SeckillServices";
                 //options.ServiceAddress = "http://172.18.0.14:80";
                 //options.ServiceAddress = "http://10.96.0.14:5004";//k8sºØ»∫service≈‰÷√
-                options.ServiceAddress = "https://localhost:5045";
+                options.ServiceAddress = "http://localhost:5045";
                 options.HealthCheckAddress = "/HealthCheck";
 
                 // options.RegistryAddress = "http://172.18.0.2:8500";

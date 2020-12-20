@@ -1,0 +1,177 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font: 14px/1.5 "Helvetica Neue",Helvetica,Arial,"Microsoft Yahei","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei",sans-serif;
+    color: #333;
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+.seckill-banner {
+    background: #414141;
+    height: 68px;
+    margin-bottom: 22px;
+    width: 1226px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.seckill-banner ul {
+    width: 100%;
+    overflow: hidden;
+    height: 68px;
+ 
+}
+.seckill-banner ul li {
+    float: left;
+    width: 20%;
+    cursor: pointer;
+    line-height: 68px;
+    height: 68px;
+    text-align: center;
+    background: #414141;
+}
+.seckill-banner .active {
+    background: #f1393a;
+}
+
+.seckill-banner li span {
+    display: inline-block;
+    margin-left: 15px;
+    text-align: left;
+    line-height: 1;
+    vertical-align: middle;
+    color: #fff;;
+}
+.seckill-banner li em {
+    display: inline-block;
+    margin-left: 5px;
+    font-size: 14px;
+    line-height: 1;
+    vertical-align: middle;
+    color: #fff;
+    line-height: 20px;
+}
+.seckill-con{
+    width: 1226px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.seckill-con ul li {
+    background: #fff;
+    width: 393px;
+    height: 190px;
+    margin-left: 13px;
+    margin-bottom: 13px;
+    transition: all .2s linear;
+    position: relative;
+    z-index: 2;
+    float: left;
+}
+
+.seckill-con ul li .img-con {
+    width: 190px;
+    height: 190px;
+    float: left;
+    margin-left: 0px !important;
+    padding-top: 0px !important;
+    background-color: #e9e9e9;
+    border: 0 none;
+    overflow: hidden;
+}
+.seckill-con ul li span {
+    display: block;
+}
+.seckill-con ul li .pro-con .name {
+    font-size: 16px;
+    color: #333;
+    height: 16px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: block;
+    line-height: 16px;
+}
+.seckill-con ul li .pro-con .desc {
+    color: rgba(0,0,0,0.54);
+    margin-top: 7px;
+    font-size: 12px;
+    line-height: 16px;
+    height: 22px;
+    width: 100%;
+    overflow: hidden;}
+
+    .seckill-con ul li .pro-con .price {
+        font-size: 16px;
+        color: #f1393a;
+        line-height: 1;
+        margin-top: 14px;
+    }
+  
+    .seckill-con ul li img {
+        width: 100%;
+        height: 190px;
+        display: block;
+        padding: 0;
+        border-style: none;
+    }
+    .seckill-con ul li .pro-con {
+        margin-left: 210px;
+        width: 180px;
+        padding-top: 30px;
+    }
+    .seckill-con ul li .J_buy {
+        font-size: 14px;
+        position: absolute;
+        right: 70px;
+        bottom: 25px;
+        z-index: 5;
+        background-color: #ff6700;
+        display: block;
+        width: 120px;
+        height: 30px;
+        text-align: center;
+        line-height: 30px;
+        color: #fff;
+    }
+  
+    .seckill-con ul li .pro-con .pro-num span{
+        display: inline-block;
+        font-size: 12px;
+        color: rgba(0,0,0,0.54);
+    }
+    .seckill-con ul li .pro-con .pro-num em{
+        display: inline-block;
+        font-size: 12px;
+        color: rgba(0,0,0,0.54);
+    }
+    .seckill-con ul li .pro-con .pro-num{
+        height: 12px;
+        line-height:12px;
+    }
+
+    .seckill-con ul li .btnDis{
+        background-color:#ccc;
+    }
+
+    .loginitem input{
+        width: 260px;
+        height: 36px;
+    }
+    .loginitem{
+        padding: 8px;
+    }
+    .loginitem a{
+        width:262px;
+        height: 34px;
+        background-color:#ff6700;
+        display: block;
+        text-decoration: none;
+        text-align: center;
+        line-height: 34px;
+        color:#fff;
+    }
+    #loginbox,#regbox
+    {
+        display: none;
+    }

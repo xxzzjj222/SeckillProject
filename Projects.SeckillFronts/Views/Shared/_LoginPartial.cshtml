@@ -1,0 +1,37 @@
+﻿<!-- 已登录 -->
+<ul class="navbar-nav" style="display:none" id="useLogin">
+    <li class="nav-item">
+        <a id="manage" class="nav-link text-dark" title="Manage"></a>
+    </li>
+    <li class="nav-item">
+        <button id="logout" type="button" class="nav-link btn btn-link text-dark" onclick="logout()">注销</button>
+    </li>
+</ul>
+
+<!-- 未登录 -->
+<ul class="navbar-nav" id="noneLogin">
+    <li class="nav-item" id="userbox">
+        <button class="nav-link btn btn-link text-dark" type="button" id="register" onclick="loginBox()">登录</button>
+    </li>
+    <li class="nav-item" id="userbox">
+        <button class="nav-link btn btn-link text-dark" type="button" id="login" onclick="registryBox()">注册</button>
+    </li>
+</ul>
+
+<!-- 登录弹框 -->
+<div id="loginbox">
+    <div class="loginitem"><input type="text" placeholder="请输入用户名" id="username"></div>
+    <div class="loginitem"><input type="password" placeholder="请输入密码" id="pwd"></div>
+    <div class="loginitem"><a href="javascript:;" onclick="userLogin()">登陆</a></div>
+</div>
+
+<!-- 注册弹框 -->
+<div id="regbox">
+    <div class="loginitem"><input type="text" placeholder="请输入用户名" id="r_username"></div>
+    <div class="loginitem"><input type="password" placeholder="请输入密码" id="r_pwd"></div>
+    <div class="loginitem"><input type="text" placeholder="请输入QQ" id="r_qq"></div>
+    <div class="loginitem"><input type="text" placeholder="请输入手机号" id="r_tel"></div>
+    <div class="loginitem"><a href="javascript:;" onclick="regLogin()">注册</a></div>
+</div>
+
+

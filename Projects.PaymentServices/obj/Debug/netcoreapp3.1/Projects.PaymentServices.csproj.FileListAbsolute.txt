@@ -83,3 +83,4 @@ F:\VS2019\Projects\Projects.PaymentServices\bin\Debug\netcoreapp3.1\Projects.Cor
 F:\VS2019\Projects\Projects.PaymentServices\bin\Debug\netcoreapp3.1\Projects.Common.pdb
 F:\VS2019\Projects\Projects.PaymentServices\bin\Debug\netcoreapp3.1\Projects.Cores.pdb
 F:\VS2019\Projects\Projects.PaymentServices\obj\Debug\netcoreapp3.1\Projects.PaymentServices.MvcApplicationPartsAssemblyInfo.cs
+F:\VS2019\Projects\Projects.PaymentServices\bin\Debug\netcoreapp3.1\DotNetCore.CAP.InMemoryStorage.dll

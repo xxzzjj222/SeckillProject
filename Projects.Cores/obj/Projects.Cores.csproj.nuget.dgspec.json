@@ -59,6 +59,10 @@
               "target": "Package",
               "version": "[3.1.2, )"
             },
+            "DotNetCore.CAP.InMemoryStorage": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
             "DotNetCore.CAP.MySql": {
               "target": "Package",
               "version": "[3.1.2, )"
@@ -104,6 +108,10 @@
           "warn": true,
           "downloadDependencies": [
             {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.10, 3.1.10]"
+            },
+            {
               "name": "Microsoft.NETCore.App.Ref",
               "version": "[3.1.0, 3.1.0]"
             },
@@ -120,7 +128,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }
