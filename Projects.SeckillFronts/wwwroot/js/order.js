@@ -13,8 +13,8 @@ $(function () {
         var ProductTitle = $("#ProductTitle").val();
         var ProductPrice = $("#ProductPrice").val();
         var ProductCount = $("#ProductCount").val();
-         var orderUrl = "https://localhost:5006/api/Order/";
-        // var orderUrl = "http://116.62.212.16:5006/api/Order/";
+         var orderUrl = "https://localhost:5056/api/Order/";
+        // var orderUrl = "http://116.62.212.16:5055/api/Order/";
         $.ajax({
             method: "POST",
             url: orderUrl,

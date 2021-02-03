@@ -50,7 +50,7 @@ namespace Projects.SeckillFronts
             {
                 endpoints.MapControllerRoute(
                     name: "default",
-                    pattern: "{controller=Home}/{action=Index}/{id?}");
+                    pattern: "{controller=Seckill}/{action=Index}/{id?}");
             });
         }
     }

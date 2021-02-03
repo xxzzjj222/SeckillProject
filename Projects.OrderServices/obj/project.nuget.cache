@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "//ZjW7uQVTEEaEN0YboOfEEOZC+kh1ZzFXZCnbSz4mUqUR3WJCnDQdKPs3w8gPPvpF+EmFGutd2sPUDSkJlSkw==",
+  "dgSpecHash": "trDrUSBKvRdHltFFY2RsDzU7etCc8J47fjdO2DCQ3cyaO5HCm056FdNnQzCwZF5Tl6H0xKXZ+35gkLX/X0NouQ==",
   "success": true,
   "projectFilePath": "F:\\VS2019\\Projects\\Projects.OrderServices\\Projects.OrderServices.csproj",
   "expectedPackageFiles": [
@@ -174,11 +174,7 @@
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
     "C:\\Users\\xzj\\.nuget\\packages\\system.xml.xpath\\4.0.1\\system.xml.xpath.4.0.1.nupkg.sha512",
-    "C:\\Users\\xzj\\.nuget\\packages\\system.xml.xpath.xmldocument\\4.0.1\\system.xml.xpath.xmldocument.4.0.1.nupkg.sha512",
-    "C:\\Users\\xzj\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
-    "C:\\Users\\xzj\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512",
-    "C:\\Users\\xzj\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.10\\microsoft.netcore.app.host.win-x64.3.1.10.nupkg.sha512",
-    "C:\\Users\\xzj\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512"
+    "C:\\Users\\xzj\\.nuget\\packages\\system.xml.xpath.xmldocument\\4.0.1\\system.xml.xpath.xmldocument.4.0.1.nupkg.sha512"
   ],
   "logs": []
 }

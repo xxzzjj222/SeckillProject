@@ -1,0 +1,61 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<input type="hidden" id="seckillId" value="@ViewData["seckillId"]" />
+<input type="hidden" id="endtime" value="@ViewData["endtime"]" />
+<!-- 页面部分 -->
+<div class="xm-product-box">
+    <div class="nav-bar">
+        <div class="container">
+            <h2 class="Producth2">Redmi K30 Pro 12GB+128GB</h2>
+            <div class="con">
+                <div class="left"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="mi-detail">
+    <div class="detail-left">
+        <div class="detail-left-con">
+            <ul class="img-list">
+                <li><img src="https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1590564927.0221071.jpg"></li>
+                <li>
+                    <img src="https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1590564927.01313044.jpg">
+                </li>
+                <li><img src="https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1590564927.027176.jpg"></li>
+            </ul>
+            <div class="swiper-button swiper-button-pre">&lt;</div>
+            <div class="swiper-button swiper-button-next">&gt;</div>
+            <ul class="num-list">
+                <li class="bg"></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+
+    </div>
+    <div class="detail-right">
+        <div class="pro-title"></div>
+        <div class="pro-summary">
+
+        </div>
+        <div class="pro-price">
+            <div class="pro-price-con">
+                <div class="pro-mspice">秒杀价：<span>￥</span></div>
+                <div class="pro-scprice">市场价：<span>￥</span></div>
+            </div>
+            <div class="pro-time"></div>
+        </div>
+        <div class="pro-stock">现有库存：<span>0</span></div>
+        <div class="pro-order">
+            <a href="javascript:;">立即抢购</a>
+        </div>
+    </div>
+</div>
+
+<script src="~/js/detail.js" asp-append-version="true"></script>
+

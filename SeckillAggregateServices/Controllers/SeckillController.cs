@@ -29,29 +29,29 @@ namespace SeckillAggregateServices.Controllers
     {
         private readonly ISeckillTimeClient seckillTimeClient;
         private readonly IProductClient productClient;
-        private readonly ISeckillsClient seckillsClient;
-        private readonly IMiddleService middleService;
-        private readonly IServiceDiscovery serviceDiscovery;
-        private readonly ILoadBalance loadBalance;
-        private readonly IDynamicMiddlewareService dynamicMiddleService;
-        private readonly OrderServiceImpl orderService;
+        //private readonly ISeckillsClient seckillsClient;
+        //private readonly IMiddleService middleService;
+        //private readonly IServiceDiscovery serviceDiscovery;
+        //private readonly ILoadBalance loadBalance;
+        //private readonly IDynamicMiddlewareService dynamicMiddleService;
+        //private readonly OrderServiceImpl orderService;
         public SeckillController(ISeckillTimeClient seckillTimeClient,
-                                IProductClient productClient,
-                                ISeckillsClient seckillsClient,
-            IMiddleService middleService,
-            IServiceDiscovery serviceDiscovery,
-            ILoadBalance loadBalance,
-            IDynamicMiddlewareService dynamicMiddleService,
-            OrderServiceImpl orderService)
+                                IProductClient productClient)
+            //                    ISeckillsClient seckillsClient,
+            //IMiddleService middleService,
+            //IServiceDiscovery serviceDiscovery,
+            //ILoadBalance loadBalance,
+            //IDynamicMiddlewareService dynamicMiddleService,
+            //OrderServiceImpl orderService)
         {
             this.seckillTimeClient = seckillTimeClient;
             this.productClient = productClient;
-            this.seckillsClient = seckillsClient;
-            this.middleService = middleService;
-            this.serviceDiscovery = serviceDiscovery;
-            this.loadBalance = loadBalance;
-            this.dynamicMiddleService = dynamicMiddleService;
-            this.orderService = orderService;
+            //this.seckillsClient = seckillsClient;
+            //this.middleService = middleService;
+            //this.serviceDiscovery = serviceDiscovery;
+            //this.loadBalance = loadBalance;
+            //this.dynamicMiddleService = dynamicMiddleService;
+            //this.orderService = orderService;
         }
 
         /// <summary>
@@ -80,7 +80,7 @@ namespace SeckillAggregateServices.Controllers
             //2.对秒杀时间进行过滤
             string data = DateTime.Now.ToShortDateString();
             string time = data + DateTime.Now.ToShortTimeString();
-            seckillTimeModels = seckillTimeModels.Where(s => string.Compare(data, s.SeckillDate, StringComparison.OrdinalIgnoreCase) < 0
+            seckillTimeModels = seckillTimeModels.Where(s => string.Compare(data, s.SeckillDate, StringComparison.OrdinalIgnoreCase) <= 0
               && string.Compare(time, s.SeckillDate + s.SeckillEndtime, StringComparison.OrdinalIgnoreCase) < 0).ToList();
             return seckillTimeModels;
         }

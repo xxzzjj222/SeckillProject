@@ -10,7 +10,7 @@ namespace SeckillAggregateServices.Services.UserService
     /// <summary>
     /// 用户微服务客户端
     /// </summary>
-    [MicroClient("https","UserServices")]
+    [MicroClient("http","UserServices")]
     public interface IUserClient
     {
         [PostPath("/Users")]

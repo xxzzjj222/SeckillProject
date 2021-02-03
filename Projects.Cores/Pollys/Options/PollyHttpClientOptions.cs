@@ -7,7 +7,13 @@ namespace Projects.Cores.Pollys.Options
     public class PollyHttpClientOptions
     {
         public PollyHttpClientOptions()
-        { }
+        {
+            this.TimeoutTime = 60;
+            this.RetryCount = 3;
+            this.CircuitBreakerOpenFallCount = 2;
+            this.CircuitBreakerOpenFallCount = 5;
+            this.ResponseMessage = "服务熔断降级了~~~";
+        }
 
         /// <summary>
         /// 超时时间设置，单位为秒

@@ -76,7 +76,7 @@ namespace Projects.Cores.DynamicMiddleware
         public dynamic GetDynamic(string urlScheme, string serviceName, string serviceLink, IDictionary<string, object> middleParam)
         {
             // 1、获取中台url
-            string url = _dynamicMiddleUrl.GetMiddleUrl(urlScheme, serviceName);
+           string url = _dynamicMiddleUrl.GetMiddleUrl(urlScheme, serviceName);
 
             // 2、请求
             MiddleResult middleResult = _middleService.Get(url + serviceLink, middleParam);

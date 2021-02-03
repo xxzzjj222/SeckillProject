@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "EyGU1EiVXzpTuGyOgKMNdwtkoIADqiuML0mu/ioZNIwoeqOJOGi9Dpy0GkqFAE1zx/w0Ng3H+R5ZkDobA0ByXg==",
+  "dgSpecHash": "FQ9bmMb3ZKUjAJtQn/cYE+uTVWrc1eG9ZNM9Hf+IpP0e/xVImngJI+6aqG1gpw5RcdJiEdfH3/cPdqK3u2WYSQ==",
   "success": true,
   "projectFilePath": "F:\\VS2019\\Projects\\Projects.Cores\\Projects.Cores.csproj",
   "expectedPackageFiles": [
@@ -124,10 +124,7 @@
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.threading.timer\\4.3.0\\system.threading.timer.4.3.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
-    "C:\\Users\\xzj\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
-    "C:\\Users\\xzj\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512",
-    "C:\\Users\\xzj\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512"
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512"
   ],
   "logs": []
 }

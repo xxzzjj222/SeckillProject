@@ -1,0 +1,52 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<input type="hidden" id="OrderId" value="@ViewData["OrderId"]" />
+<input type="hidden" id="OrderSn" value="@ViewData["OrderSn"]" />
+<input type="hidden" id="OrderTotalPrice" value="@ViewData["OrderTotalPrice"]" />
+<input type="hidden" id="ProductId" value="@ViewData["ProductId"]" />
+<input type="hidden" id="UserId" value="@ViewData["UserId"]" />
+<input type="hidden" id="ProductName" value="@ViewData["ProductName"]" />
+
+<div id="pay-top">
+    <div class="container">
+        <div id="J_miniHeaderTitle">支付订单</div>
+    </div>
+</div>
+
+<div id="pay-middle">
+    <div id="order-simple" class="clearfix">
+        <div class="iconfont">√</div>
+        <div id="pay-success">
+            <div id="success-left">
+                <div id="success-info">订单提交成功！去付款咯～</div>
+                <div id="pay-time">请在<span>0 小时 14 分</span>内完成支付, 超时后将取消订单</div>
+            </div>
+            <div id="success-right">
+                <div id="pay-price">应付总额：<span>@ViewData["OrderTotalPrice"]元</span></div>
+                <div id="order-button"><a href="javascript:;" onclick="showInfor()">订单详情</a></div>
+            </div>
+        </div>
+    </div>
+    <div id="order-infor">
+        <div>订单号：<span>@ViewData["OrderSn"]</span></div>
+        <div>商品名称：@ViewData["ProductName"]</div>
+    </div>
+</div>
+<div id="pay-way">
+    <div id="way-title">选择以下支付方式付款</div>
+    <div id="zfpt">支付平台</div>
+    <div id="payway-list">
+        <div id="pay-wx"><img src="~/img/wx.jpg" id="payment"></div>
+        <div><img src="~/img/yl.jpg"></div>
+        <div><img src="~/img/zfb.jpg"></div>
+    </div>
+    <div id="qrcode"></div>
+</div>
+
+<script src="~/js/payment.js" asp-append-version="true"></script>
+<script src="~/js/qrcode.js" asp-append-version="true"></script>
+

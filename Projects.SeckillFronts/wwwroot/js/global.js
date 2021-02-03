@@ -1,5 +1,5 @@
 ﻿
-// 全局js
+ //全局js
 $(function () {
     // 1、获取AccessToken
     var user = getCache("user");
@@ -35,4 +35,4 @@ $(function () {
     });  
 
 
-})
+//})

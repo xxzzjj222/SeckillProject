@@ -1,0 +1,9 @@
+F:\VS2019\Projects\Projects.Common\bin\Release\netcoreapp3.1\Projects.Common.deps.json
+F:\VS2019\Projects\Projects.Common\bin\Release\netcoreapp3.1\Projects.Common.dll
+F:\VS2019\Projects\Projects.Common\bin\Release\netcoreapp3.1\Projects.Common.pdb
+F:\VS2019\Projects\Projects.Common\obj\Release\netcoreapp3.1\Projects.Common.csprojAssemblyReference.cache
+F:\VS2019\Projects\Projects.Common\obj\Release\netcoreapp3.1\Projects.Common.AssemblyInfoInputs.cache
+F:\VS2019\Projects\Projects.Common\obj\Release\netcoreapp3.1\Projects.Common.AssemblyInfo.cs
+F:\VS2019\Projects\Projects.Common\obj\Release\netcoreapp3.1\Projects.Common.csproj.CoreCompileInputs.cache
+F:\VS2019\Projects\Projects.Common\obj\Release\netcoreapp3.1\Projects.Common.dll
+F:\VS2019\Projects\Projects.Common\obj\Release\netcoreapp3.1\Projects.Common.pdb

@@ -21,8 +21,8 @@ $(function () {
     });
 
     // 5、加载页面数据,加载 秒杀时间
-     var seckillTimeUrl = "https://localhost:5006/api/Seckill";
-    //var seckillTimeUrl = "http://116.62.212.16:5006/api/Seckill"
+     var seckillTimeUrl = "https://localhost:5056/api/Seckill";
+    //var seckillTimeUrl = "http://116.62.212.16:5055/api/Seckill"
     $.ajax({
         method: "GET",
         url: seckillTimeUrl,
@@ -31,7 +31,6 @@ $(function () {
             if (result.ErrorNo == "0") {
                 // 1、在页面上增加显示时间
                 var resultList = result.ResultList;
-                
                 // 2、先将页面数据缓存在数组中
                 var bannerList = [];
                 $.each(resultList, function (i, val) {
@@ -72,8 +71,8 @@ $(function () {
 
 
 // 加载秒杀商品
- var seckillUrl = "https://localhost:5006/api/Seckill/";
-//var seckillUrl = "http://116.62.212.16:5006/api/Seckill/"
+ var seckillUrl = "https://localhost:5056/api/Seckill/";
+//var seckillUrl = "http://116.62.212.16:5055/api/Seckill/"
 function loadSeckills() {
     var TimeId = $("#endtime").attr("data-timeId");
     $.ajax({

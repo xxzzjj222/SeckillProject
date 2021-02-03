@@ -20,7 +20,7 @@ namespace Projects.Common.Filters
             {
                 int? statusCode= objectResult.StatusCode;
                 if (statusCode == 200 || statusCode == 201 || statusCode == 202 || !statusCode.HasValue)
-                    objectResult.Value = WrapSuccessResult(objectResult);
+                    objectResult.Value = WrapSuccessResult(objectResult.Value);
                 else
                     objectResult.Value = WrapFailResult(objectResult);
             }

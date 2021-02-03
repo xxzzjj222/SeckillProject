@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection;
 using System.Threading.Tasks;
 using IdentityServer4.EntityFramework.DbContexts;
 using IdentityServer4.EntityFramework.Mappers;
@@ -55,11 +56,11 @@ namespace Projects.UserServices
             {
                 options.ServiceId = Guid.NewGuid().ToString();
                 options.ServiceName = "UserServices";
-                options.ServiceAddress = "http://localhost:5005";
+                options.ServiceAddress = "https://localhost:5005";
                 options.HealthCheckAddress = "/HealthCheck";
                 options.RegistryAddress = "http://localhost:8500";
             });
-
+             //var migrationsAssembly = typeof(Startup).GetTypeInfo().Assembly.GetName().Name;
             //5.Ìí¼Óids4
             services.AddIdentityServer()
                 .AddDeveloperSigningCredential()//1.ÅäÖÃÇ©ÊðÖ¤Êé
@@ -67,7 +68,8 @@ namespace Projects.UserServices
                 {
                     options.ConfigureDbContext = builder =>
                       {
-                          builder.UseMySQL(Configuration.GetConnectionString("DefaultConnection"));
+                          builder.UseMySQL(Configuration.GetConnectionString("DefaultConnection")/*, options =>
+                           options.MigrationsAssembly(migrationsAssembly)*/);
                       };
                 })
                 .AddResourceOwnerValidator<ResourceOwnerPasswordValidator>();
@@ -106,6 +108,8 @@ namespace Projects.UserServices
             {
                 endpoints.MapControllers();
             });
+
+            InitializeDatabase(app);
         }
 
         /// <summary>

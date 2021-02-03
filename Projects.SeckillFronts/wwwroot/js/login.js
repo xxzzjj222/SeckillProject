@@ -41,8 +41,8 @@ function userLogin() {
     }
 
     // 2、根据用户信息进行注册
-     var loginUrl = "https://localhost:5006/api/User/Login";
-    //var loginUrl = "http://116.62.212.16:5006/api/User/Login"
+     var loginUrl = "https://localhost:5056/api/User/Login";
+    //var loginUrl = "http://116.62.212.16:5055/api/User/Login"
     $.post(loginUrl, { "UserName": username, "Password": pwd }, function (result) {
         if (result.ErrorNo == "0") {
             // 1、用户信息
@@ -85,8 +85,9 @@ function regLogin() {
     }
 
     // 2、根据用户信息进行注册
-     var registryUrl = "https://localhost:5006/api/User";
-    //var registryUrl = "http://116.62.212.16:5006/api/User"
+    var registryUrl = "https://localhost:5056/api/User";
+    //var registryUrl = "https://localhost:5056/api/User";
+    //var registryUrl = "http://116.62.212.16:5055/api/User"
     $.post(registryUrl, { "UserName": username, "Password": pwd, "UserQQ": qq, "UserPhone": tel }, function (result) {
         if (result.ErrorNo == "0") {
             alert("注册成功");

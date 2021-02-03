@@ -36,10 +36,16 @@ $(function () {
     });
 
     // 1、加载秒杀商品详情
-     var seckillDetailUrl = "https://localhost:5006/api/SeckillDetail/";
-    //var seckillDetailUrl = "http://116.62.212.16:5006/api/SeckillDetail/";
+     var seckillDetailUrl = "https://localhost:5056/api/SeckillDetail/";
+    //var seckillDetailUrl = "http://116.62.212.16:5055/api/SeckillDetail/";
     var seckillId = $("#seckillId").val();
+    var user = getCache("user");
     $.ajax({
+        headers: {
+            "Authorization": "Bearer " + user.AccessToken,
+            "UserId": user.UserId,
+            "UserName": user.UserName
+        },
         method: "GET",
         url: seckillDetailUrl + seckillId,
         dataType: "json",

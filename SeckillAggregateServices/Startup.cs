@@ -40,7 +40,7 @@ namespace SeckillAggregateServices
             //1.注册微服务客户端（动态中台—》服务发现—》负载均衡—》中台—》PollyHttpClient）
             services.AddMicroClient(options =>
             {
-                options.AssemblyName = "Projects.SeckillAggregateServices";
+                options.AssemblyName = "SeckillAggregateServices";
                 options.dynamicMiddlewareOptions = mo =>
                   {
                       mo.serviceDiscoveryOptions = sdo =>
@@ -54,15 +54,15 @@ namespace SeckillAggregateServices
             services.AddCors(options =>
             {
                 options.AddPolicy("AllowSpecificOrigin",
-                    builder => builder.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());
+                    builder => builder.SetIsOriginAllowed(_=>true).AllowAnyMethod().AllowAnyHeader().AllowCredentials());
             });
 
             //3.添加身份认证
             services.AddAuthentication(IdentityServerAuthenticationDefaults.AuthenticationScheme)
                 .AddIdentityServerAuthentication(options =>
                 {
-                    options.Authority = "http://localhost:5005";//1.授权中心地址
-                    options.ApiName = "TeamService";//2.Api名称
+                    options.Authority = "https://localhost:5005";//1.授权中心地址
+                    options.ApiName = "Services";//2.Api名称
                     options.RequireHttpsMetadata = false;//3.https元数据不需要
                 });
 
@@ -76,6 +76,8 @@ namespace SeckillAggregateServices
             {
                 //防止大写转换成小写
                 options.SerializerSettings.ContractResolver = new DefaultContractResolver();
+                //options.SerializerSettings.NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore;
+                options.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore;
             });
 
             //5.使用内存缓存
@@ -85,7 +87,7 @@ namespace SeckillAggregateServices
             services.AddDistributedRedisCache("localhost:6379, password =, defaultDatabase = 2, poolsize = 50, connectTimeout = 5000, syncTimeout = 10000, prefix = seckill_stock_");
 
             //6 使用秒杀库存缓存
-            services.AddSeckillStockCache();
+            //services.AddSeckillStockCache();
             //6.1 使用秒杀redis库存缓存
             services.AddRedisSeckillStockCache();
 
@@ -135,16 +137,16 @@ namespace SeckillAggregateServices
                 app.UseDeveloperExceptionPage();
             }
 
+            //2.使用跨域
+            app.UseCors("AllowSpecificOrigin");
+
             app.UseHttpsRedirection();
 
             app.UseRouting();
 
             //1.开启身份认证
-            app.UseAuthentication();
-            app.UseAuthorization();
-
-            //2.使用跨域
-            app.UseCors("AllowSpecificOrigin");
+            //app.UseAuthentication();
+            //app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>
             {

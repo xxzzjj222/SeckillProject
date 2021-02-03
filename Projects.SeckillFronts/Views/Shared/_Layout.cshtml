@@ -6,6 +6,18 @@
     <title>@ViewData["Title"] - 秒杀系统</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" />
+    <link rel="stylesheet" href="~/css/detail.css" />
+    <link rel="stylesheet" href="~/css/order.css" />
+    <link rel="stylesheet" href="~/css/seckill.css" />
+    <link rel="stylesheet" href="~/css/payment.css" />
+
+    <script src="~/js/jquery-3.5.0.min.js"></script>
+    <script src="~/layer/layer.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/global.js" asp-append-version="true"></script>
+    <script src="~/js/cache.js" asp-append-version="true"></script>
+    <script src="~/js/login.js" asp-append-version="true"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
 </head>
 <body>
     <header>
@@ -42,9 +54,6 @@
             &copy; 2020 - Projects.SeckillFronts - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
         </div>
     </footer>
-    <script src="~/lib/jquery/dist/jquery.min.js"></script>
-    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="~/js/site.js" asp-append-version="true"></script>
     @RenderSection("Scripts", required: false)
 </body>
 </html>

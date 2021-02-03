@@ -1,4 +1,5 @@
-﻿using Projects.Cores.Middleware;
+﻿using Projects.Cores.MicroClient.Attributes;
+using Projects.Cores.Middleware;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,6 +10,7 @@ namespace SeckillAggregateServices.Services.SeckillService
     /// <summary>
     /// 秒杀记录客户端
     /// </summary>
+    [MicroClient("http","SeckillServices")]
     public interface ISeckillRecordClient
     {
         /// <summary>

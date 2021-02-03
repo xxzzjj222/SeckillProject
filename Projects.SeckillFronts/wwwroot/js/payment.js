@@ -9,8 +9,8 @@ $(function () {
         var ProductId = $("#ProductId").val();
         var UserId = $("#UserId").val();
         var ProductName = $("#ProductName").val();
-         var paymentUrl = "https://localhost:5006/api/Payment/";
-       // var paymentUrl = "http://116.62.212.16:5006/api/Payment/";
+         var paymentUrl = "https://localhost:5056/api/Payment/";
+       // var paymentUrl = "http://116.62.212.16:5055/api/Payment/";
         $.ajax({
             method: "POST",
             url: paymentUrl,

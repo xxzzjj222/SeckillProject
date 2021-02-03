@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 
 namespace SeckillAggregateServices.Services.ProductService
 {
+    [MicroClient(urlScheme:"http",serviceName:"ProductServices")]
     public interface IProductClient
     {
         /// <summary>

@@ -110,3 +110,6 @@ F:\VS2019\Projects\Projects.SeckillFronts\bin\Debug\netcoreapp3.1\zh-Hans\Micros
 F:\VS2019\Projects\Projects.SeckillFronts\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
 F:\VS2019\Projects\Projects.SeckillFronts\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_LoginPartial.cshtml.g.cs
 F:\VS2019\Projects\Projects.SeckillFronts\obj\Debug\netcoreapp3.1\Razor\Views\Order\Index.cshtml.g.cs
+F:\VS2019\Projects\Projects.SeckillFronts\obj\Debug\netcoreapp3.1\Razor\Views\Detail\Index.cshtml.g.cs
+F:\VS2019\Projects\Projects.SeckillFronts\obj\Debug\netcoreapp3.1\Razor\Views\Payment\Index.cshtml.g.cs
+F:\VS2019\Projects\Projects.SeckillFronts\obj\Debug\netcoreapp3.1\Razor\Views\Seckill\Index.cshtml.g.cs

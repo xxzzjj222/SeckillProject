@@ -3,7 +3,6 @@ using System.Collections;
 using System.Collections.Generic;
 
 using System;
-using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using IdentityServer4;
@@ -38,7 +37,7 @@ namespace Projects.UserServices.Configs
                 {
                     ClientId="client-password",
                     //客户端有权限的范围，openId必须添加，否则报错forbidden
-                    AllowedScopes={"TeamService",IdentityServerConstants.StandardScopes.OpenId,IdentityServerConstants.StandardScopes.Profile },
+                    AllowedScopes={"UserServices",IdentityServerConstants.StandardScopes.OpenId,IdentityServerConstants.StandardScopes.Profile },
                     //使用密码进行验证
                     AllowedGrantTypes=GrantTypes.ResourceOwnerPassword,
                     //用于认证的密码
@@ -54,7 +53,7 @@ namespace Projects.UserServices.Configs
                     ClientId="client-code",
                     ClientSecrets={new Secret("secret".Sha256()) },
                     AllowedGrantTypes=GrantTypes.Code,
-                    AllowedScopes={"TeamService",IdentityServerConstants.StandardScopes.OpenId,IdentityServerConstants.StandardScopes.Profile },
+                    AllowedScopes={ "UserServices", IdentityServerConstants.StandardScopes.OpenId,IdentityServerConstants.StandardScopes.Profile },
                     RequireConsent=false,
                     RequirePkce=true,
 

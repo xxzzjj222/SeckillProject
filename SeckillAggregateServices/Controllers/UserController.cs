@@ -16,7 +16,7 @@ using System.Threading.Tasks;
 
 namespace SeckillAggregateServices.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/User")]
     [ApiController]
     public class UserController : ControllerBase
     {
@@ -28,6 +28,7 @@ namespace SeckillAggregateServices.Controllers
             IDynamicMiddleUrl dynamicMiddleUrl,
             IHttpClientFactory httpClientFactory)
         {
+            Console.WriteLine("UserController Constructor");
             _userClient = userClient;
             _dynamicMiddleUrl = dynamicMiddleUrl;
             _httpClient = httpClientFactory.CreateClient();
@@ -48,7 +49,7 @@ namespace SeckillAggregateServices.Controllers
             //6.对token进行认证
 
             //1.获取identityServer接口文档
-            string userUrl = _dynamicMiddleUrl.GetMiddleUrl("http", "UserServices");
+            string userUrl = _dynamicMiddleUrl.GetMiddleUrl("https", "UserServices");
             DiscoveryDocumentResponse discoveryDocument = _httpClient.GetDiscoveryDocumentAsync(userUrl).Result;
             if(discoveryDocument.IsError)
             {
@@ -59,7 +60,7 @@ namespace SeckillAggregateServices.Controllers
             TokenResponse tokenResponse = _httpClient.RequestPasswordTokenAsync(new PasswordTokenRequest()
             {
                 Address = discoveryDocument.TokenEndpoint,
-                ClientId = "clientId-password",
+                ClientId = "client-password",
                 ClientSecret = "secret",
                 GrantType = "password",
                 UserName = loginPo.UserName,
@@ -102,6 +103,7 @@ namespace SeckillAggregateServices.Controllers
         [HttpPost]
         public User Post([FromForm] UserPo userPo)
         {
+            Console.WriteLine("UserController Post");
             var configuration = new MapperConfiguration(cfg =>
               {
                   cfg.CreateMap<UserPo, User>();
