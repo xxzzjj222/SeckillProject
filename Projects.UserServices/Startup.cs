@@ -122,32 +122,35 @@ namespace Projects.UserServices
             {
                 var context = serviceScope.ServiceProvider.GetService<ConfigurationDbContext>();
                 context.Database.Migrate();
-                if(!context.Clients.Any())
-                {
+                //if(!context.Clients.Any())
+                //{
+                    context.Clients.RemoveRange(context.Clients);
                     foreach(var client in Config.GetClients())
                     {
                         context.Clients.Add(client.ToEntity());
                     }
                     context.SaveChanges();
-                }
+                //}
 
-                if(!context.ApiResources.Any())
-                {
+                //if(!context.ApiResources.Any())
+                //{
+                context.ApiResources.RemoveRange(context.ApiResources);
                     foreach(var resource in Config.GetApiResources())
                     {
                         context.ApiResources.Add(resource.ToEntity());
                     }
                     context.SaveChanges();
-                }
+                //}
 
-                if(!context.IdentityResources.Any())
-                {
+                //if(!context.IdentityResources.Any())
+                //{
+                context.RemoveRange(context.IdentityResources);
                     foreach(var resource in Config.Ids)
                     {
                         context.IdentityResources.Add(resource.ToEntity());
                     }
                     context.SaveChanges();
-                }
+                //}
             }
         }
     }

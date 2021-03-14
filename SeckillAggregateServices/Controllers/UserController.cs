@@ -68,7 +68,7 @@ namespace SeckillAggregateServices.Controllers
             }).Result;
 
             //3.返回AccessToken
-            if(tokenResponse.IsError)
+            if (tokenResponse.IsError)
             {
                 throw new BizException(tokenResponse.Error + "," + tokenResponse.Raw);
             }

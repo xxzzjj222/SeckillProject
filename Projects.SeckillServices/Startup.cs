@@ -9,6 +9,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Microsoft.Extensions.Logging;
 using Newtonsoft.Json.Serialization;
 using Projects.Common.Exceptions.Handlers;
 using Projects.Common.Filters;
@@ -36,7 +37,8 @@ namespace Projects.SeckillServices
             //1.Ìí¼Ódbcontext
             services.AddDbContextPool<SeckillContext>(options =>
             {
-                options.UseMySQL(Configuration.GetConnectionString("DefaultConnection"));
+                options.UseMySQL(Configuration.GetConnectionString("DefaultConnection")).
+                    UseLoggerFactory(LoggerFactory.Create(config => config.AddConsole()));
             });
 
             // 2¡¢×¢²áÉÌÆ·service

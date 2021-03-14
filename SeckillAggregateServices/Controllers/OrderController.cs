@@ -55,7 +55,7 @@ namespace SeckillAggregateServices.Controllers
             this.distributedOrderSn = distributedOrderSn;
         }
 
-        /*
+        
         /// <summary>
         /// 创建预订单
         /// </summary>
@@ -88,7 +88,7 @@ namespace SeckillAggregateServices.Controllers
             };
             return orderDto;
         }
-
+        
         /// <summary>
         /// 1.创建订单
         /// </summary>
@@ -137,7 +137,7 @@ namespace SeckillAggregateServices.Controllers
             paymentDto.OrderTotalPrice = orderPo.OrderTotalPrice;
 
             return paymentDto;
-        }*/
+        }
 
         /*
         /// <summary>
@@ -518,50 +518,50 @@ namespace SeckillAggregateServices.Controllers
         /// 4.6、创建订单(redis + 消息队列 + lua + 方法幂等 + 失败回滚 + 分布式订单号)
         /// </summary>
         /// <param name="orderDto"></param>
-        [HttpPost]
-        public PaymentDto CreateOrder(SysUser sysUser, [FromForm] OrderPo orderPo)
-        {
-            // 1、秒杀参数准备
-            string ProductKey = Convert.ToString(orderPo.ProductId);// 商品key
-            string SeckillLimitKey = "seckill_stock_:SeckillLimit" + orderPo.ProductCount; // 单品限流key
-            string UserBuyLimitKey = "seckill_stock_:UserId" + sysUser.UserId + "ProductId" + orderPo.ProductId;// 用户购买限制key
-            int productCount = orderPo.ProductCount; // 购买商品数量
-            int requestCountLimits = 60000; // 单品限流数量
-            int seckillLimitKeyExpire = 60;// 单品限流时间：单位秒
-            string requestIdKey = "seckill_stock_:" + orderPo.RequestId; // requestIdKey
-            string orderSn = distributedOrderSn.CreateDistributedOrderSn(); // 分布式订单号 "97006545732243456"
+        //[HttpPost]
+        //public PaymentDto CreateOrder(SysUser sysUser, [FromForm] OrderPo orderPo)
+        //{
+        //    // 1、秒杀参数准备
+        //    string ProductKey = Convert.ToString(orderPo.ProductId);// 商品key
+        //    string SeckillLimitKey = "seckill_stock_:SeckillLimit" + orderPo.ProductCount; // 单品限流key
+        //    string UserBuyLimitKey = "seckill_stock_:UserId" + sysUser.UserId + "ProductId" + orderPo.ProductId;// 用户购买限制key
+        //    int productCount = orderPo.ProductCount; // 购买商品数量
+        //    int requestCountLimits = 60000; // 单品限流数量
+        //    int seckillLimitKeyExpire = 60;// 单品限流时间：单位秒
+        //    string requestIdKey = "seckill_stock_:" + orderPo.RequestId; // requestIdKey
+        //    string orderSn = distributedOrderSn.CreateDistributedOrderSn(); // 分布式订单号 "97006545732243456"
 
-            // 2、执行秒杀
-            var SeckillResult = RedisHelper.EvalSHA(memoryCache.Get<string>("luaSha"), ProductKey, UserBuyLimitKey, SeckillLimitKey, productCount, requestCountLimits, seckillLimitKeyExpire, requestIdKey, orderSn);
-            if (!SeckillResult.ToString().Equals("1"))
-            {
-                throw new BizException(SeckillResult.ToString());
-            }
+        //    // 2、执行秒杀
+        //    var SeckillResult = RedisHelper.EvalSHA(memoryCache.Get<string>("luaSha"), ProductKey, UserBuyLimitKey, SeckillLimitKey, productCount, requestCountLimits, seckillLimitKeyExpire, requestIdKey, orderSn);
+        //    if (!SeckillResult.ToString().Equals("1"))
+        //    {
+        //        throw new BizException(SeckillResult.ToString());
+        //    }
 
-            try
-            {
-                // 3、发送订单消息到rabbitmq
-                SendOrderCreateMessage(sysUser.UserId, orderSn, orderPo);
-            }
-            catch (Exception)
-            {
-                // 3.1 秒杀回滚
-                RedisHelper.EvalSHA(memoryCache.Get<string>("luaShaCallback"), ProductKey, UserBuyLimitKey, productCount, requestIdKey, orderSn);
+        //    try
+        //    {
+        //        // 3、发送订单消息到rabbitmq
+        //        SendOrderCreateMessage(sysUser.UserId, orderSn, orderPo);
+        //    }
+        //    catch (Exception)
+        //    {
+        //        // 3.1 秒杀回滚
+        //        RedisHelper.EvalSHA(memoryCache.Get<string>("luaShaCallback"), ProductKey, UserBuyLimitKey, productCount, requestIdKey, orderSn);
 
-                // 3.2 抢购失败
-                throw new BizException("抢购失败");
-            }
+        //        // 3.2 抢购失败
+        //        throw new BizException("抢购失败");
+        //    }
 
-            // 4、创建支付信息
-            PaymentDto paymentDto = new PaymentDto();
-            paymentDto.OrderSn = orderSn;
-            paymentDto.OrderTotalPrice = orderPo.OrderTotalPrice;
-            paymentDto.UserId = sysUser.UserId;
-            paymentDto.ProductId = orderPo.ProductId;
-            paymentDto.ProductName = orderPo.ProductName;
+        //    // 4、创建支付信息
+        //    PaymentDto paymentDto = new PaymentDto();
+        //    paymentDto.OrderSn = orderSn;
+        //    paymentDto.OrderTotalPrice = orderPo.OrderTotalPrice;
+        //    paymentDto.UserId = sysUser.UserId;
+        //    paymentDto.ProductId = orderPo.ProductId;
+        //    paymentDto.ProductName = orderPo.ProductName;
 
-            return paymentDto;
-        }
+        //    return paymentDto;
+        //}
 
         /// <summary>
         /// 发送创建订单消息

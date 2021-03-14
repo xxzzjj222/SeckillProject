@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "13vfzWII9s0wAda7BeEx8lEuZvPhCkzDyjhvBFMr63FyrY/A8vGAlM+QGAfJi8h1XOTbjoRs5HmKjO3CF8Ch9Q==",
+  "dgSpecHash": "VB068BytSsPgkzgd//WogPA0sLXmNlWEgIMsViTb7AdSeLCtNPptlFc1HorcohIT5ShCnudMiHUoRbJH7TYbgg==",
   "success": true,
   "projectFilePath": "F:\\VS2019\\Projects\\Projects.ProductServices\\Projects.ProductServices.csproj",
   "expectedPackageFiles": [
@@ -64,6 +64,7 @@
     "C:\\Users\\xzj\\.nuget\\packages\\microsoft.net.http.headers\\2.2.0\\microsoft.net.http.headers.2.2.0.nupkg.sha512",
     "C:\\Users\\xzj\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
+    "C:\\Users\\xzj\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.10.9\\microsoft.visualstudio.azure.containers.tools.targets.1.10.9.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.win32.primitives\\4.3.0\\microsoft.win32.primitives.4.3.0.nupkg.sha512",
     "C:\\Users\\xzj\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
     "C:\\Users\\xzj\\.nuget\\packages\\mysql.data\\8.0.22\\mysql.data.8.0.22.nupkg.sha512",

@@ -33,18 +33,21 @@ namespace Projects.UserServices.Configs
         {
             return new List<Client>
             {
-                new Client
+                 new Client
                 {
-                    ClientId="client-password",
-                    //客户端有权限的范围，openId必须添加，否则报错forbidden
-                    AllowedScopes={"UserServices",IdentityServerConstants.StandardScopes.OpenId,IdentityServerConstants.StandardScopes.Profile },
-                    //使用密码进行验证
-                    AllowedGrantTypes=GrantTypes.ResourceOwnerPassword,
-                    //用于认证的密码
-                    ClientSecrets =
+                    ClientId = "client-password",
+	                // 使用用户名密码交互式验证
+	                AllowedGrantTypes = GrantTypes.ResourceOwnerPassword,
+
+	                // 用于认证的密码
+	                ClientSecrets =
                     {
                         new Secret("secret".Sha256())
                     },
+	                // 客户端有权访问的范围（Scopes）
+	                AllowedScopes = { "TeamService",
+                    IdentityServerConstants.StandardScopes.OpenId, //必须要添加，否则报forbidden错误
+                    IdentityServerConstants.StandardScopes.Profile }
                 },
 
                 //openId
@@ -53,7 +56,7 @@ namespace Projects.UserServices.Configs
                     ClientId="client-code",
                     ClientSecrets={new Secret("secret".Sha256()) },
                     AllowedGrantTypes=GrantTypes.Code,
-                    AllowedScopes={ "UserServices", IdentityServerConstants.StandardScopes.OpenId,IdentityServerConstants.StandardScopes.Profile },
+                    AllowedScopes={ "TeamService", IdentityServerConstants.StandardScopes.OpenId,IdentityServerConstants.StandardScopes.Profile },
                     RequireConsent=false,
                     RequirePkce=true,
 
@@ -70,6 +73,7 @@ namespace Projects.UserServices.Configs
         /// </summary>
         public static IEnumerable<IdentityResource> Ids => new List<IdentityResource>
         {
+            new IdentityResource("TeamService",new string[]{"TeamService"}),
             new IdentityResources.OpenId(),
             new IdentityResources.Profile()
         };

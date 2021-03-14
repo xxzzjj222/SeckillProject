@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "tafkOA3AvZ7SY5n7MTLTFT8g6qwzab9uI9SMrexPEPaAMdzRbYL/ln2xWM/oNR1kMPn3KTreXIt13pl2Iv4Npg==",
+  "dgSpecHash": "XhV+hckXbf3HRHKHPX2gZzyHMdLjR4s8q7RKcpWnGtm50DwktDqQ/8pxLdEXvtAVaJeWhj/6yiSbSYSlTeRy1w==",
   "success": true,
   "projectFilePath": "F:\\VS2019\\Projects\\Projects.PaymentServices\\Projects.PaymentServices.csproj",
   "expectedPackageFiles": [
@@ -64,6 +64,7 @@
     "C:\\Users\\xzj\\.nuget\\packages\\microsoft.net.http.headers\\2.2.0\\microsoft.net.http.headers.2.2.0.nupkg.sha512",
     "C:\\Users\\xzj\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
+    "C:\\Users\\xzj\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.10.9\\microsoft.visualstudio.azure.containers.tools.targets.1.10.9.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.win32.primitives\\4.3.0\\microsoft.win32.primitives.4.3.0.nupkg.sha512",
     "C:\\Users\\xzj\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
     "C:\\Users\\xzj\\.nuget\\packages\\mysql.data\\8.0.22\\mysql.data.8.0.22.nupkg.sha512",

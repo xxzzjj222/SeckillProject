@@ -8,6 +8,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using Microsoft.IdentityModel.Tokens;
 using Newtonsoft.Json.Serialization;
 using Projects.Common.Caches;
 using Projects.Common.Distributes;
@@ -54,7 +55,9 @@ namespace SeckillAggregateServices
             services.AddCors(options =>
             {
                 options.AddPolicy("AllowSpecificOrigin",
-                    builder => builder.SetIsOriginAllowed(_=>true).AllowAnyMethod().AllowAnyHeader().AllowCredentials());
+                    //builder => builder.AllowAnyMethod().AllowAnyHeader().WithOrigins("https://*"));
+                builder => builder.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());
+                //builder => builder.SetIsOriginAllowed(_=>true).AllowAnyMethod().AllowAnyHeader().AllowCredentials());
             });
 
             //3.添加身份认证
@@ -62,8 +65,9 @@ namespace SeckillAggregateServices
                 .AddIdentityServerAuthentication(options =>
                 {
                     options.Authority = "https://localhost:5005";//1.授权中心地址
-                    options.ApiName = "Services";//2.Api名称
+                    options.ApiName = "TeamService";//2.Api名称
                     options.RequireHttpsMetadata = false;//3.https元数据不需要
+                    options.LegacyAudienceValidation = true;
                 });
 
             //4.添加控制器
@@ -145,8 +149,8 @@ namespace SeckillAggregateServices
             app.UseRouting();
 
             //1.开启身份认证
-            //app.UseAuthentication();
-            //app.UseAuthorization();
+            app.UseAuthentication();
+            app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>
             {
