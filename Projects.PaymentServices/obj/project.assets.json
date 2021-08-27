@@ -2598,10 +2598,7 @@
         },
         "runtime": {
           "bin/placeholder/Projects.Common.dll": {}
-        },
-        "frameworkReferences": [
-          "Microsoft.AspNetCore.App"
-        ]
+        }
       },
       "Projects.Cores/1.0.0": {
         "type": "project",
@@ -2626,10 +2623,7 @@
         },
         "runtime": {
           "bin/placeholder/Projects.Cores.dll": {}
-        },
-        "frameworkReferences": [
-          "Microsoft.AspNetCore.App"
-        ]
+        }
       }
     }
   },
@@ -8348,23 +8342,26 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\xzj\\.nuget\\packages\\": {},
+    "C:\\Users\\xuzhijian\\.nuget\\packages\\": {},
+    "D:\\app\\vs2019\\install\\share\\NuGetPackages": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\VS2019\\Projects\\Projects.PaymentServices\\Projects.PaymentServices.csproj",
+      "projectUniqueName": "D:\\test-project\\SeckillProject\\Projects.PaymentServices\\Projects.PaymentServices.csproj",
       "projectName": "Projects.PaymentServices",
-      "projectPath": "F:\\VS2019\\Projects\\Projects.PaymentServices\\Projects.PaymentServices.csproj",
-      "packagesPath": "C:\\Users\\xzj\\.nuget\\packages\\",
-      "outputPath": "F:\\VS2019\\Projects\\Projects.PaymentServices\\obj\\",
+      "projectPath": "D:\\test-project\\SeckillProject\\Projects.PaymentServices\\Projects.PaymentServices.csproj",
+      "packagesPath": "C:\\Users\\xuzhijian\\.nuget\\packages\\",
+      "outputPath": "D:\\test-project\\SeckillProject\\Projects.PaymentServices\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
+        "D:\\app\\vs2019\\install\\share\\NuGetPackages",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\xzj\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\xuzhijian\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -8378,11 +8375,11 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "F:\\VS2019\\Projects\\Projects.Common\\Projects.Common.csproj": {
-              "projectPath": "F:\\VS2019\\Projects\\Projects.Common\\Projects.Common.csproj"
+            "D:\\test-project\\SeckillProject\\Projects.Common\\Projects.Common.csproj": {
+              "projectPath": "D:\\test-project\\SeckillProject\\Projects.Common\\Projects.Common.csproj"
             },
-            "F:\\VS2019\\Projects\\Projects.Cores\\Projects.Cores.csproj": {
-              "projectPath": "F:\\VS2019\\Projects\\Projects.Cores\\Projects.Cores.csproj"
+            "D:\\test-project\\SeckillProject\\Projects.Cores\\Projects.Cores.csproj": {
+              "projectPath": "D:\\test-project\\SeckillProject\\Projects.Cores\\Projects.Cores.csproj"
             }
           }
         }
@@ -8430,7 +8427,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -1,23 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "F:\\VS2019\\Projects\\Projects.Cores\\Projects.Cores.csproj": {}
+    "D:\\test-project\\SeckillProject\\Projects.Cores\\Projects.Cores.csproj": {}
   },
   "projects": {
-    "F:\\VS2019\\Projects\\Projects.Cores\\Projects.Cores.csproj": {
+    "D:\\test-project\\SeckillProject\\Projects.Cores\\Projects.Cores.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\VS2019\\Projects\\Projects.Cores\\Projects.Cores.csproj",
+        "projectUniqueName": "D:\\test-project\\SeckillProject\\Projects.Cores\\Projects.Cores.csproj",
         "projectName": "Projects.Cores",
-        "projectPath": "F:\\VS2019\\Projects\\Projects.Cores\\Projects.Cores.csproj",
-        "packagesPath": "C:\\Users\\xzj\\.nuget\\packages\\",
-        "outputPath": "F:\\VS2019\\Projects\\Projects.Cores\\obj\\",
+        "projectPath": "D:\\test-project\\SeckillProject\\Projects.Cores\\Projects.Cores.csproj",
+        "packagesPath": "C:\\Users\\xuzhijian\\.nuget\\packages\\",
+        "outputPath": "D:\\test-project\\SeckillProject\\Projects.Cores\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "D:\\app\\vs2019\\install\\share\\NuGetPackages",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\xzj\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\xuzhijian\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -107,14 +109,11 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     }

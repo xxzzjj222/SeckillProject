@@ -1,23 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "F:\\VS2019\\Projects\\Projects.UserServices\\Projects.UserServices.csproj": {}
+    "D:\\test-project\\SeckillProject\\Projects.UserServices\\Projects.UserServices.csproj": {}
   },
   "projects": {
-    "F:\\VS2019\\Projects\\Projects.Common\\Projects.Common.csproj": {
+    "D:\\test-project\\SeckillProject\\Projects.Common\\Projects.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\VS2019\\Projects\\Projects.Common\\Projects.Common.csproj",
+        "projectUniqueName": "D:\\test-project\\SeckillProject\\Projects.Common\\Projects.Common.csproj",
         "projectName": "Projects.Common",
-        "projectPath": "F:\\VS2019\\Projects\\Projects.Common\\Projects.Common.csproj",
-        "packagesPath": "C:\\Users\\xzj\\.nuget\\packages\\",
-        "outputPath": "F:\\VS2019\\Projects\\Projects.Common\\obj\\",
+        "projectPath": "D:\\test-project\\SeckillProject\\Projects.Common\\Projects.Common.csproj",
+        "packagesPath": "C:\\Users\\xuzhijian\\.nuget\\packages\\",
+        "outputPath": "D:\\test-project\\SeckillProject\\Projects.Common\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "D:\\app\\vs2019\\install\\share\\NuGetPackages",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\xzj\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\xuzhijian\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -87,31 +89,30 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "F:\\VS2019\\Projects\\Projects.Cores\\Projects.Cores.csproj": {
+    "D:\\test-project\\SeckillProject\\Projects.Cores\\Projects.Cores.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\VS2019\\Projects\\Projects.Cores\\Projects.Cores.csproj",
+        "projectUniqueName": "D:\\test-project\\SeckillProject\\Projects.Cores\\Projects.Cores.csproj",
         "projectName": "Projects.Cores",
-        "projectPath": "F:\\VS2019\\Projects\\Projects.Cores\\Projects.Cores.csproj",
-        "packagesPath": "C:\\Users\\xzj\\.nuget\\packages\\",
-        "outputPath": "F:\\VS2019\\Projects\\Projects.Cores\\obj\\",
+        "projectPath": "D:\\test-project\\SeckillProject\\Projects.Cores\\Projects.Cores.csproj",
+        "packagesPath": "C:\\Users\\xuzhijian\\.nuget\\packages\\",
+        "outputPath": "D:\\test-project\\SeckillProject\\Projects.Cores\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "D:\\app\\vs2019\\install\\share\\NuGetPackages",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\xzj\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\xuzhijian\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -201,31 +202,30 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "F:\\VS2019\\Projects\\Projects.UserServices\\Projects.UserServices.csproj": {
+    "D:\\test-project\\SeckillProject\\Projects.UserServices\\Projects.UserServices.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\VS2019\\Projects\\Projects.UserServices\\Projects.UserServices.csproj",
+        "projectUniqueName": "D:\\test-project\\SeckillProject\\Projects.UserServices\\Projects.UserServices.csproj",
         "projectName": "Projects.UserServices",
-        "projectPath": "F:\\VS2019\\Projects\\Projects.UserServices\\Projects.UserServices.csproj",
-        "packagesPath": "C:\\Users\\xzj\\.nuget\\packages\\",
-        "outputPath": "F:\\VS2019\\Projects\\Projects.UserServices\\obj\\",
+        "projectPath": "D:\\test-project\\SeckillProject\\Projects.UserServices\\Projects.UserServices.csproj",
+        "packagesPath": "C:\\Users\\xuzhijian\\.nuget\\packages\\",
+        "outputPath": "D:\\test-project\\SeckillProject\\Projects.UserServices\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "D:\\app\\vs2019\\install\\share\\NuGetPackages",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\xzj\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\xuzhijian\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -239,11 +239,11 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "F:\\VS2019\\Projects\\Projects.Common\\Projects.Common.csproj": {
-                "projectPath": "F:\\VS2019\\Projects\\Projects.Common\\Projects.Common.csproj"
+              "D:\\test-project\\SeckillProject\\Projects.Common\\Projects.Common.csproj": {
+                "projectPath": "D:\\test-project\\SeckillProject\\Projects.Common\\Projects.Common.csproj"
               },
-              "F:\\VS2019\\Projects\\Projects.Cores\\Projects.Cores.csproj": {
-                "projectPath": "F:\\VS2019\\Projects\\Projects.Cores\\Projects.Cores.csproj"
+              "D:\\test-project\\SeckillProject\\Projects.Cores\\Projects.Cores.csproj": {
+                "projectPath": "D:\\test-project\\SeckillProject\\Projects.Cores\\Projects.Cores.csproj"
               }
             }
           }
@@ -305,7 +305,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     }
